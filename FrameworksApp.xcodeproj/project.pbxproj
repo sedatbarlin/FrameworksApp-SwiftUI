@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF7C14672C19D88A00029379 /* FrameworksAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C14662C19D88A00029379 /* FrameworksAppApp.swift */; };
+		AF7C14672C19D88A00029379 /* FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C14662C19D88A00029379 /* FrameworksApp.swift */; };
 		AF7C14692C19D88A00029379 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C14682C19D88A00029379 /* ContentView.swift */; };
 		AF7C146B2C19D88C00029379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7C146A2C19D88C00029379 /* Assets.xcassets */; };
 		AF7C146E2C19D88C00029379 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7C146D2C19D88C00029379 /* Preview Assets.xcassets */; };
+		AF7C14752C19DA0100029379 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C14742C19DA0100029379 /* Framework.swift */; };
+		AF7C14772C19E0D800029379 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C14762C19E0D800029379 /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF7C14632C19D88A00029379 /* FrameworksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameworksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF7C14662C19D88A00029379 /* FrameworksAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksAppApp.swift; sourceTree = "<group>"; };
+		AF7C14662C19D88A00029379 /* FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworksApp.swift; sourceTree = "<group>"; };
 		AF7C14682C19D88A00029379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF7C146A2C19D88C00029379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF7C146D2C19D88C00029379 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF7C14742C19DA0100029379 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		AF7C14762C19E0D800029379 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		AF7C14652C19D88A00029379 /* FrameworksApp */ = {
 			isa = PBXGroup;
 			children = (
-				AF7C14662C19D88A00029379 /* FrameworksAppApp.swift */,
+				AF7C14662C19D88A00029379 /* FrameworksApp.swift */,
 				AF7C14682C19D88A00029379 /* ContentView.swift */,
+				AF7C14742C19DA0100029379 /* Framework.swift */,
+				AF7C14762C19E0D800029379 /* FrameworkGridView.swift */,
 				AF7C146A2C19D88C00029379 /* Assets.xcassets */,
 				AF7C146C2C19D88C00029379 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF7C14692C19D88A00029379 /* ContentView.swift in Sources */,
-				AF7C14672C19D88A00029379 /* FrameworksAppApp.swift in Sources */,
+				AF7C14772C19E0D800029379 /* FrameworkGridView.swift in Sources */,
+				AF7C14752C19DA0100029379 /* Framework.swift in Sources */,
+				AF7C14672C19D88A00029379 /* FrameworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
