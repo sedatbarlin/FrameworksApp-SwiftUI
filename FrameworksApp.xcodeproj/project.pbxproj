@@ -13,6 +13,7 @@
 		AF7C146E2C19D88C00029379 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7C146D2C19D88C00029379 /* Preview Assets.xcassets */; };
 		AF7C14752C19DA0100029379 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C14742C19DA0100029379 /* Framework.swift */; };
 		AF7C14772C19E0D800029379 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C14762C19E0D800029379 /* FrameworkGridView.swift */; };
+		AF7C14792C1DF24900029379 /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C14782C1DF24900029379 /* FrameworkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AF7C146D2C19D88C00029379 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF7C14742C19DA0100029379 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		AF7C14762C19E0D800029379 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		AF7C14782C1DF24900029379 /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AF7C14682C19D88A00029379 /* ContentView.swift */,
 				AF7C14742C19DA0100029379 /* Framework.swift */,
 				AF7C14762C19E0D800029379 /* FrameworkGridView.swift */,
+				AF7C14782C1DF24900029379 /* FrameworkDetailView.swift */,
 				AF7C146A2C19D88C00029379 /* Assets.xcassets */,
 				AF7C146C2C19D88C00029379 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF7C14692C19D88A00029379 /* ContentView.swift in Sources */,
+				AF7C14792C1DF24900029379 /* FrameworkDetailView.swift in Sources */,
 				AF7C14772C19E0D800029379 /* FrameworkGridView.swift in Sources */,
 				AF7C14752C19DA0100029379 /* Framework.swift in Sources */,
 				AF7C14672C19D88A00029379 /* FrameworksApp.swift in Sources */,
